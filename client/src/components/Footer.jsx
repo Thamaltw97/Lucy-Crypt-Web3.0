@@ -1,13 +1,13 @@
 import React from "react";
 
-import logo from "../../images/logo.png";
+import logo from "../../images/logo2.png";
 
 const Footer = () => (
     <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
         <div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
-            {/* <div className="flex flex-[0.5] justify-center items-center">
-                <img src={logo} alt="logo" className="w-32" />
-            </div> */}
+            <div className="flex flex-[0.5] justify-center items-center">
+                <img src={logo} alt="logo" className="w-32" style={{ width: '75%' }} />
+            </div>
             {/* <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
         <p className="text-white text-base text-center mx-2 cursor-pointer">Market</p>
         <p className="text-white text-base text-center mx-2 cursor-pointer">Exchange</p>
@@ -17,7 +17,7 @@ const Footer = () => (
         </div>
 
         <div className="flex justify-center items-center flex-col mt-5">
-            <p className="text-white text-sm text-center">Click to connect.</p>
+            <p className="text-white text-sm text-center">Join with me.</p>
             <a href="https://thamaltw97.github.io/" target="_blank" rel="noreferrer">
                 <p className="text-white text-sm text-center font-medium mt-2">Portfolio | thamaltw97@outlook.com</p>
             </a>
